@@ -62,7 +62,13 @@ class _MyHomePageState extends State<MyHomePage> {
           const SizedBox(
             height: 14.0,
           ),
-          Text(recipe.label)
+          Text(
+            recipe.label,
+            style: const TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.w700,
+                fontFamily: 'Palatino'),
+          ),
         ],
       ),
     );
